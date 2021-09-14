@@ -1,0 +1,44 @@
+body{
+    background-color: #006064;
+    font-family: Arial ;
+}
+h1{
+    text-align: center;
+    color: white;
+    display:inline-block;
+}
+.block {
+    display: flex;
+    align-items: center;
+  }
+
+div1{
+    color: blue;
+    font-size: 36px;
+    display: list-item;
+}
+div{
+    color: white;
+    font-size: 36px;
+    display: list-item;
+}
+li {
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: white;
+    display:inline-block;
+}
+p{  
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: blue;
+    display:inline-block;
+}
+
+img{
+    display:block;
+    float: right;
+    margin: right;
+}

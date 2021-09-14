@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Michael's Favorite Shows</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+    <h1>Michael's Favorite Shows</h1>
+    <ol class = "TVshows">
+        {%for i in range(len)%}
+            {% if "Peaky Blinders" == TVshows[i]%}
+            <div1 class = "blocks">
+                <li>
+                    <p>{{TVshows[i]}}</p>
+                    <img src={{images[i]}} style ="width: 400px; height: 400px">
+                </li>
+            </div1>
+            {% else %}
+            <div class = "blocks">
+                <li>{{TVshows[i]}} <img src={{images[i]}} style ="width: 400px; height: 400px"></li>
+            </div>
+            {% endif %} 
+        {%endfor%}  
+    </ol>
+    </body>
+</html>
